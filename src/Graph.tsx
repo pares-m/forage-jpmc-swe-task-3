@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table } from '@finos/perspective';
+import { Table, TableData } from '@finos/perspective';
 import { ServerRespond } from './DataStreamer';
 import { DataManipulator } from './DataManipulator';
 import './Graph.css';
@@ -24,7 +24,7 @@ class Graph extends Component<IProps, {}> {
 
     const schema = {
       price_abc: 'float',
-      prica_def: 'float',
+      price_def: 'float',
       ratio: 'float',
       timestamp: 'date',
       upper_bound: 'float',
