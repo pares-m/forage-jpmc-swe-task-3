@@ -43,7 +43,7 @@ class Graph extends Component<IProps, {}> {
       elem.setAttribute('columns', '["ratio", "lower_bound", "upper_bound", "trigger_alert"]');
       elem.setAttribute('aggregates', JSON.stringify({
         price_abc: 'avg',
-        prica_def: 'avg',
+        price_def: 'avg',
         ratio: 'avg',
         timestamp: 'distinct count',
         upper_bound: 'avg',
